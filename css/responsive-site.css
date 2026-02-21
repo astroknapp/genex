@@ -1,6 +1,14 @@
 
 @media only screen and (max-width: 850px) {
 
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
 
 .section{
     display: block;
@@ -19,7 +27,10 @@ nav{
 }
 
 #logo{
-    top: 55vh;
+    top: 40vh;
+    width: 85vw;
+    min-width: 1px;
+    max-width: 500px;
 }
 
 .desktop{
@@ -36,11 +47,12 @@ nav{
     background-image: url(../images/GenEx_footer-mobile.jpg);
         background-attachment: scroll;
         background-position: center;
+        height: 100vh;
 
 }
 
 #contact h1{
-    padding-top: 5rem;
+    padding-top: 0px;
 }
 
 
