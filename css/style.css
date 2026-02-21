@@ -156,11 +156,11 @@ nav{
 }
 
 .desktop{
-  visibility: visible;
+  display: block;
 }
 
 .mobile{
-  visibility: hidden;
+  display: none;
 }
 
 
@@ -189,6 +189,11 @@ nav{
 .intimg{
   width: 100%;
   border-radius: 1rem;
+}
+
+.mobileimg{
+  display: none;
+  margin-top: 2rem;
 }
 
 .box{

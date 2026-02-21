@@ -5,12 +5,28 @@
         overflow-x: hidden;
     }
 
+    #wrapper{
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+
 h1{
     font-size: 1.8rem;
 }
 
 h2{
     font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    width: 95%;
+    padding: 0%;
+    margin: 1rem auto;
 }
 
 
@@ -20,10 +36,12 @@ h2{
 
 .box{
     width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 nav{
-    visibility: hidden;
+    display: none;
 }
 
 #hero{
@@ -38,14 +56,29 @@ nav{
 }
 
 .desktop{
-    visibility: hidden;
+    display: none;
 }
 
 .mobile{
-    visibility: visible;
+    display: block;
 }
 
+.mobileimg{
+    display: block;
 
+}
+
+.section{
+    padding-top: 3rem;
+}
+
+#dates{
+    margin-top: 2rem;
+}
+
+#dates h2{
+    font-size: 1.5rem;
+}
 
 #contact{
     background-image: url(../images/GenEx_footer-mobile.jpg);
