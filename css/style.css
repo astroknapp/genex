@@ -144,9 +144,15 @@ nav{
   min-width: 400px;
 }
 
+#video{
+  width: 70%;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+}
+
 iframe{
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 1rem;
 }
 
@@ -187,7 +193,7 @@ iframe{
   width: 100vw;
   margin: 0 auto;
   display: flex;
-  padding-top: 7rem;
+  padding-top: 5rem;
   /* border: 1px solid red; */
 }
 

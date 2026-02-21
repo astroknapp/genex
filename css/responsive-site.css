@@ -26,7 +26,8 @@ h4{
 p{
     width: 95%;
     padding: 0%;
-    margin: 1rem auto;
+    margin: 0 auto;
+    margin-top: 1.5rem;
 }
 
 
@@ -42,6 +43,10 @@ p{
 
 nav{
     display: none;
+}
+
+#video{
+    width: 90vw;
 }
 
 #hero{
@@ -80,16 +85,21 @@ nav{
     font-size: 1.5rem;
 }
 
+#ministry{
+    padding-bottom: 7rem;
+}
+
 #contact{
     background-image: url(../images/GenEx_footer-mobile.jpg);
         background-attachment: scroll;
         background-position: center;
         height: 100vh;
+        padding-top: 0px;
 
 }
 
 #contact h1{
-    padding-top: 0px;
+    padding-top: 7rem;
 }
 
 
