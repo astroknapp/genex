@@ -144,6 +144,12 @@ nav{
   min-width: 400px;
 }
 
+iframe{
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
 #hero{
   height: 100vh;
 }
