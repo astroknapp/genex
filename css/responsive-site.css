@@ -1,0 +1,47 @@
+
+@media only screen and (max-width: 850px) {
+
+
+.section{
+    display: block;
+}
+
+.box{
+    width: 90%;
+}
+
+nav{
+    visibility: hidden;
+}
+
+#hero{
+    height: 100vh;
+}
+
+#logo{
+    top: 55vh;
+}
+
+.desktop{
+    visibility: hidden;
+}
+
+.mobile{
+    visibility: visible;
+}
+
+
+
+#contact{
+    background-image: url(../images/GenEx_footer-mobile.jpg);
+        background-attachment: scroll;
+        background-position: center;
+
+}
+
+#contact h1{
+    padding-top: 5rem;
+}
+
+
+}
